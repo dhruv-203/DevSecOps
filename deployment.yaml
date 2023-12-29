@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
         - name: devsecops
-          image: dhruv203/demo:latest
+          image: {{image_id}}
           ports:
             - containerPort: 80
