@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
         - name: devsecops
-          image: devsecops:{{image_id}}
+          image: ${IMAGE_TAG}
           ports:
             - containerPort: 80
